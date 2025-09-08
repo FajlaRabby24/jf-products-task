@@ -96,7 +96,7 @@ const ContactSection = () => {
     formState: { errors },
   } = useForm();
 
-  const sendEmail = (data) => {
+  const sendEmail = () => {
     if (!formRef.current) return;
     setIsSubmitting(true);
 
@@ -123,7 +123,7 @@ const ContactSection = () => {
   };
 
   return (
-    <Container className="border border-info  rounded-2xl py-3 relative">
+    <Container className="border border-info  rounded-2xl py-3 relative mb-40">
       <span className="text-lg font-medium absolute -top-6 left-1/2 -translate-x-1/2 text-center mb-6 bg-primary  py-2 px-5 rounded-full">
         Our Branches
       </span>
