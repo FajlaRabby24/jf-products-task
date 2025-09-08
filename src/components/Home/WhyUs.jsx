@@ -30,7 +30,7 @@ const WhyUsInfos = [
 
 const WhyUs = () => {
   return (
-    <Container className="w-full py-12 px-4 md:px-12">
+    <Container className="w-full py-12">
       {/* Heading */}
       <div className="text-center max-w-3xl mx-auto  mb-8 md:mb-20">
         <h2 className="section-title mb-2">Why Us</h2>
