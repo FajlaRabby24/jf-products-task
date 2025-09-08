@@ -35,10 +35,10 @@ const products = [
 
 const LandscapeProducts = () => {
   return (
-    <Container className="text-2xl md:text-3xl font-bold mb-6">
+    <Container className="w-full">
       <h2 className="section-title mb-6">Landscape Products</h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
         {products.map((product) => (
           <div
             key={product.id}
@@ -54,8 +54,8 @@ const LandscapeProducts = () => {
             <div className="card-body">
               <h2 className="card-title">{product.name}</h2>
               <p>{product.price}</p>
-              <div className="card-actions ">
-                <button className="btn btn-primary text-black rounded-full px-10">
+              <div className="card-actions mt-2 ">
+                <button className="btn btn-primary text-black rounded-full px-6">
                   Buy Now
                 </button>
               </div>

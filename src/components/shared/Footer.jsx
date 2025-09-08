@@ -6,7 +6,7 @@ import Logo from "../common/Logo";
 const Footer = () => {
   return (
     <div>
-      <div className="bg-radial-[at_550%_550%] from-info to-neutral text-white px-3  py-10 rounded-xl">
+      <div className="bg-radial-[at_550%_550%] from-info to-neutral text-white px  py-10 rounded-xl">
         <Container className="flex items-start flex-col md:flex-row justify-between   gap-10">
           {/* Left Section - Newsletter */}
           <div className="col-span-4">

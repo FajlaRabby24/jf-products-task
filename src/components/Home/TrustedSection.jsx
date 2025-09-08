@@ -3,7 +3,7 @@ import Container from "../common/Container";
 
 const TrustedSection = () => {
   return (
-    <Container className="w-full flex justify-center px-4 ">
+    <Container className="w-full flex justify-center ">
       <div className="bg-radial-[at_50%_250%] from-info  to-neutral to-60% py-10 text-white w-full rounded-2xl space-y-12 shadow-lg p-8 md:p-12">
         <h2 className="text-2xl md:text-4xl font-semibold text-center ">
           Trusted by over <span className="font-bold">6K+</span> customers

@@ -1,6 +1,7 @@
 import { CiSearch } from "react-icons/ci";
 import { FiUser } from "react-icons/fi";
 import { MdOutlineShoppingBag } from "react-icons/md";
+import { Link } from "react-router";
 import Container from "../common/Container";
 import Logo from "../common/Logo";
 import NavLinks from "../common/NavLinks";
@@ -71,9 +72,11 @@ const Navbar = () => {
           <Logo className="absolute mt-6 p-2" />
         </div>
         <div className="navbar-end space-x-5">
-          <button className="btn btn-primary rounded-full px-6 text-black border-0">
-            Login <FiUser size={15} />
-          </button>
+          <Link to={"/auth/login"}>
+            <button className="btn btn-primary rounded-full px-6 text-black border-0">
+              Login <FiUser size={15} />
+            </button>
+          </Link>
           <span>
             <CiSearch size={25} />
           </span>
