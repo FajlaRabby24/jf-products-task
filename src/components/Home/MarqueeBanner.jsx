@@ -29,7 +29,7 @@ const marqueeInfos = [
 
 const MarqueeBanner = () => {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden py-7">
       <Marquee className="bg-info border-y flex items-center  justify-between -rotate-2 py-4">
         {marqueeInfos.map((marquee) => (
           <div className="flex items-end mr-10   gap-6" key={marquee.id}>

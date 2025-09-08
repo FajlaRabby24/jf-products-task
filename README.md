@@ -1,12 +1,44 @@
-# React + Vite
+# 🌿 JF Products
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![JF Products Screenshot](https://jf-products.netlify.app)
 
-Currently, two official plugins are available:
+JF Products is an innovative and user-friendly e-commerce platform designed to help customers explore a wide variety of **agricultural** and **landscape products**.  
+The platform showcases premium quality items with features like product listings, branch locations, Google Maps integration, and smooth animations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🛒 **Product Listings** – Browse agricultural and landscape products.
+- 📦 **Shipping Across India** – Delivery options across multiple cities.
+- ⭐ **Customer Reviews** – Trusted by over 6K+ happy customers.
+- 📰 **Blogs & Story Section** – Learn more about the company and updates.
+- 💌 **Newsletter Subscription** – Stay updated with latest offers.
+- 📍 **Branch Locations Map** – Interactive map powered by **React Leaflet**.
+- 🎡 **Marquee Section** – Smooth auto-scrolling highlights using `react-fast-marquee`.
+- ✅ **Responsive Design** – Optimized for desktop, tablet, and mobile.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** [React 19](https://react.dev/) + [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/) + [DaisyUI](https://daisyui.com/)
+- **Icons:** [React Icons](https://react-icons.github.io/react-icons/)
+- **Carousel:** [Swiper](https://swiperjs.com/)
+- **Map Integration:** [Leaflet](https://leafletjs.com/) + [React Leaflet](https://react-leaflet.js.org/)
+- **Form Handling:** [React Hook Form](https://react-hook-form.com/)
+- **Email Service:** [EmailJS](https://www.emailjs.com/)
+- **Notifications:** [React Toastify](https://fkhadra.github.io/react-toastify/)
+- **Marquee:** [react-fast-marquee](https://www.npmjs.com/package/react-fast-marquee)
+
+---
+
+## 📂 Project Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/FajlaRabby24/jf-products-task.git
+cd jf-products
+```
