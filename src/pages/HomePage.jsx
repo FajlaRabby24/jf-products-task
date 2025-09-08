@@ -1,4 +1,5 @@
 import AgriculturalProducts from "../components/Home/AgriculturalProducts";
+import ContactSection from "../components/Home/ContactSection";
 import Hero from "../components/Home/Hero";
 import LandscapeProducts from "../components/Home/LandscapeProducts";
 import MarqueeBanner from "../components/Home/MarqueeBanner";
@@ -16,6 +17,7 @@ const HomePage = () => {
       <WhyUs />
       <MarqueeBanner />
       <TestimonialSection />
+      <ContactSection />
     </div>
   );
 };

@@ -1,9 +1,11 @@
 import { Outlet } from "react-router";
+import { ToastContainer } from "react-toastify";
 import Navbar from "../components/shared/Navbar";
 
 const RootLayout = () => {
   return (
     <div>
+      <ToastContainer position="top-left" autoClose={1500} />
       <header>
         <Navbar />
       </header>
