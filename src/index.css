@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
-  padding-bottom: 50px;
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
 }
@@ -18,4 +17,12 @@ body {
   --color-secondary: #f2f4f6;
   --color-neutral: #002b55;
   --color-info: #93c0ec;
+}
+
+.active {
+  @apply border-b-2;
+}
+
+.section-title {
+  @apply text-[#1a1a1a]  text-2xl md:text-4xl font-semibold;
 }
